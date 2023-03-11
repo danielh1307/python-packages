@@ -1,6 +1,9 @@
 def foo():
-    from pkg import A
-    print("[mod1] foo() / A = ", A)
+    print("[sub_pkg1.mod1] foo()")
+
+
+def add(a, b):
+    return a + b
 
 
 class Foo:
